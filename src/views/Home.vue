@@ -26,11 +26,11 @@
             indicator-position="inside"
             arrow="hover"
           >
-            <el-carousel-item v-for="(banner, index) in bannerList" :key="index">
+            <!-- <el-carousel-item v-for="(banner, index) in bannerList" :key="index">
               <div class="banner-item" @click="handleBannerClick(banner)">
                 <img :src="banner.imageUrl" alt="" class="banner-img" />
               </div>
-            </el-carousel-item>
+            </el-carousel-item> -->
           </el-carousel>
         </div>
 
@@ -111,11 +111,11 @@
             <h3>AI分析</h3>
             <p>智能學習報告，能力雷达图，个性化學習建議</p>
           </div>
-          <div class="action-card" @click="goToVideos">
+          <!-- <div class="action-card" @click="goToVideos">
             <el-icon class="card-icon video-icon"><VideoPlay /></el-icon>
             <h3>視頻百科</h3>
             <p>技術点讲解视频，分类学习，互动点赞分享</p>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -123,7 +123,7 @@
       <div class="popular-section">
         <div class="section-header">
           <h2 class="section-title">熱門題目</h2>
-          <el-button text @click="goToPractice">查看更多 →</el-button>
+          <!-- <el-button text @click="goToPractice">查看更多 →</el-button> -->
         </div>
         <div class="popular-grid">
           <div class="popular-card" v-for="question in popularQuestions" :key="question.id">
